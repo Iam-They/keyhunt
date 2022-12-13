@@ -1,0 +1,1 @@
+﻿ ./keyhunt -m bsgs -f tests/120.txt -b 120 -R -k 512 -n 0x4000000000 -q -S -t 30 -B dance

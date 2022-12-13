@@ -53,7 +53,7 @@ and then execute with `-h` to see the help
 
 ## ¡Beta!
 
-This version is still a **beta** version, there are a lot of things that can be fail. And absoluly there are some bugs 
+This version is still a **beta** version, there are a lot of things that can be fail. And absoluly there are some bugs
 
 # Modes
 
@@ -171,11 +171,11 @@ output:
 [+] Total 6291456 keys in 20 seconds: 314572 keys/s
 ```
 
-### vanity search.
+## Vanity Search
 
-well this function always be there in the code but is not eficient, use only as a test and for fun, anyway if you want to search for a *vanity* address for you, you also *need* to search for some address at the same time this last is not optional, please feel free of use the VanitySearch
+Well this function always be there in the code but is not eficient, use only as a test and for fun, anyway if you want to search for a *vanity* address for you, you also *need* to search for some address at the same time this last is not optional, please feel free of use the VanitySearch
  from Jean Luc Pons (https://github.com/JeanLucPons/VanitySearch) if you want a better speed.
- 
+
 Try to find all the unsolved puzzles at the same time while you search for a cool address for yourself.
 
 Unsolved puzzles:
@@ -970,7 +970,7 @@ sys     0m22.752s
 
 There are several variations to play with the values `-n` and `-k` but there are some minimal values required, n can not be less than 1048576 (2^20)
 
-To get optimal performance the k values need to be base 2^x values, this is 1,2,4,8,16,32 ... 
+To get optimal performance the k values need to be base 2^x values, this is 1,2,4,8,16,32 ...
 
 ### Valid n and k values
 
@@ -1003,10 +1003,10 @@ To get optimal performance the k values need to be base 2^x values, this is 1,2,
 |   64 |  0x10000000000000000 | 4194304     |
 +------+----------------------+-------------+
 ```
- 
+
 **if you exceed the Max value of K the program can have a unknow behavior, the program can have a suboptimal performance, or in the wrong cases you can missing some hits and have an incorrect SPEED.**
 
-Note for user that want use it with SWAP memory. IT DON'T WORK swap memory was made to small chucks of memory also is slowly.   
+Note for user that want use it with SWAP memory. IT DON'T WORK swap memory was made to small chucks of memory also is slowly.
 
 ### What values use according to my current RAM:
 
@@ -1223,7 +1223,7 @@ if you have publickeys for ethereum you can use xpoint or bsgs mode.
 
 to test the functionality of ethereum you can use the sample file `tests/1to32.eth`
 
-command: 
+command:
 
 ```
 ./keyhunt -c eth -f tests/1to32.eth -r 1:100000000 -M
@@ -1274,7 +1274,7 @@ Please check the video that i made to answer that https://youtu.be/MVby8mYNxbI
 - Is available for Windows?
 R: It can be compiled with mingw, also it can be executed in the Ubuntu shell for windows 10
 
-Updated: 
+Updated:
 Yes thanks to @kanhavishva
 Available in: https://github.com/kanhavishva/keyhunt
 
@@ -1291,7 +1291,7 @@ Tested under Debian and WSL Ubuntu Shell for windows 10
 
 ## Thanks
 
-This program was possible thanks to 
+This program was possible thanks to
 - IceLand
 - kanhavishva
 - JLP for part of his code
